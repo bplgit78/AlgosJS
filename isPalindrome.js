@@ -23,10 +23,3 @@ console.log(isPalindrome("foobar"));
 console.log(isPalindrome("tacocat"));
 console.log(isPalindrome("malayalam"));
 console.log(isPalindrome("topspot"));
-
-function getStringFirstAndLast(str) {
-  console.log(str[0] + " and last is::" + str[str.length - 1]);
-  str.slice(1, -1);
-}
-
-//getStringFirstAndLast("H");
